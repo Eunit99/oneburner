@@ -1,0 +1,111 @@
+/*!
+ *      Default styles for all pages
+ *     One Burner
+ *      (c) Eunit99 (https://eunit99.github.io)
+*/
+
+:root {
+  /* Global attributes */
+  --theme_color: #462686;
+  --color_primary: #462686;
+  --color_secondary: #512aa0;
+  --color_tertiary: #3d1d7e;
+  --color_accessibility__light: #ECEFF1;
+  --color_white: #fff;
+  --color_black: #000;
+  --color_gray: rgba(122, 118, 118, 0.897);
+  --color_lightgray: rgba(170, 169, 169, 0.404);
+  --color_darkgray: rgba(39, 38, 38, 0.897);
+  --color_accessibility: #263238;
+  --color_hover: #462686;
+  --color_hover__dark: #512aa0;
+  --bg_hover__dark: #512aa0;
+  --bg_lightgray: rgba(245, 245, 245, 0.8);
+  --bg_hover: #3d1d7e;
+  --bg-primary__light: #512aa03f;
+  --default_font__size: 1rem;
+  --default_font__family: Muli, sans-serif;
+  --heading_font: Catamaran;
+}
+
+/* Text colors */
+.color-primary {
+  color: var(--color_primary) !important;
+}
+
+.color-secondary {
+  color: var(--color_secondary) !important;
+}
+
+.color-tertiary {
+  color: var(--color_tertiary) !important;
+}
+
+.color-accessibility {
+  color: var(--color_accessibility) !important;
+}
+
+.color_light__accessibility {
+  color: var(--color_light__accessibility);
+}
+
+.color-hover {
+  color: var(--color_hover) !important;
+}
+
+.color-hover__dark {
+  color: var(--color_hover__dark) !important;
+}
+
+.color-white {
+  color: var(--color_white) !important;
+}
+
+.color-black {
+  color: var(--color_black) !important;
+}
+
+.color-gray {
+  color: var(--color_gray);
+}
+
+.color_hover__dark {
+  background-color: var(--color_hover__dark) !important;
+}
+
+/* Background colors */
+.bg-primary {
+  background-color: var(--color_primary) !important;
+}
+
+.bg-primary__light {
+  background-color: var(--bg-primary__light) !important;
+}
+
+.bg-secondary {
+  background-color: var(--color_secondary) !important;
+}
+
+.bg-tertiary {
+  background-color: var(--color_tertiary) !important;
+}
+
+.bg-lightgray {
+  background-color: var(--bg_lightgray);
+}
+
+.bg_hover {
+  background-color: var(--bg_hover) !important;
+}
+
+.bg_hover__dark {
+  background-color: var(--bg_hover__dark) !important;
+}
+
+.bg-accessibility {
+  background-color: var(--color_accessibility) !important;
+}
+
+.bg-gray {
+  background-color: var(--color_gray) !important;
+}

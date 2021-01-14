@@ -1,0 +1,234 @@
+/*!
+ *      Default styles for all pages
+ *      Fumana global styles
+ *      (c) Fumana Teams 2020
+*/
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  /* box-shadow: 1px 1px 1px #f00; */
+
+  /* For development use only */
+}
+
+body {
+  background-color: var(--color_white);
+}
+
+body,
+input,
+button {
+  font-size: var(--default_font__size);
+  font-family: var(--default_font__family);
+  -webkit-font-smoothing: antialiased;
+}
+
+
+
+/* Navbar */
+.navbar-header .logo-area {
+  color: var(--theme_color);
+}
+
+.navbar-header span {
+  font-weight: bold;
+}
+
+.navbar-nav span {
+  padding: 10px 16px;
+  border-radius: 32px;
+  -webkit-border-radius: 32px;
+  -moz-border-radius: 32px;
+  -ms-border-radius: 32px;
+  -o-border-radius: 32px;
+  cursor: pointer
+}
+
+.navbar-nav span:hover {
+  background-color: var(--bg-primary__light);
+}
+
+.navbar-nav span.active {
+  background-color: var(--theme_color);
+  color: var(--color_white);
+}
+
+/* Form */
+
+.form-group {
+  width: 100%;
+}
+
+.form-control {
+  border: 1px solid var(--color_black);
+  padding: 1rem;
+}
+
+.form-control input,
+.form-control button {
+  height: 3.625rem;
+}
+
+.form-group .input-icon {
+  position: absolute;
+  right: 7%;
+  top: 54%;
+}
+
+button.btn-default {
+  color: var(--color_white);
+  background-color: var(--color_primary);
+  padding: 1rem;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 32px;
+  -webkit-border-radius: 32px;
+  -moz-border-radius: 32px;
+  -ms-border-radius: 32px;
+  -o-border-radius: 32px;
+}
+
+a:hover {
+  color: var(--color_hover)
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  font-family: var(--heading_font);
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Utilities START */
+
+.mt-12vh {
+  margin-top: 12vh;
+}
+
+.mt-8vh {
+  margin-top: 8vh;
+}
+
+.pt-4vh {
+  padding-top: 4vh;
+}
+
+.pt-8vh {
+  padding-top: 10vh;
+}
+
+.nav-bars:before {
+  content: '\2630';
+  cursor: pointer;
+}
+
+.border-3 {
+  border-width: 3px;
+}
+
+.border-solid {
+  border-style: solid;
+}
+
+.border-gray {
+  border-color: var(--color_gray)
+}
+
+/* Utilities END */
+
+.font-size-large {
+  font-size: large;
+}
+
+.font-size-normal {
+  font-size: normal;
+}
+
+.font-size-small {
+  font-size: small;
+}
+
+.font-size-smaller {
+  font-size: smaller;
+}
+
+
+.font-size-smallest {
+  font-size: 12px !important;
+}
+
+.fz-24 {
+  font-size: 24px;
+}
+
+.fz-38 {
+  font-size: 38px;
+}
+
+a.text-decoration-none {
+  text-decoration: none;
+}
+
+
+.copyright-info {
+  text-align: center;
+}
+
+/* Responsive Contents START */
+
+/* For larger screens >= 1024px~1140px  */
+@media all and (min-width: 1023px) {
+
+  /* Auth pagesSTYLES */
+
+  .auth-container .main-part {
+    height: 65vh;
+  }
+
+  .auth-container .side-part,
+  .auth-container .side-part,
+  .auth-container .main-part {
+    height: 75vh;
+    padding-top: 4vh;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+  }
+
+  .auth-container .side-part {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  .auth-container .side-part .place-holder-img {
+    margin-top: 3vh;
+  }
+
+  .auth-container .side-part {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+  .auth-container .side-part .auth-title {
+    font-size: 1.1875rem;
+    text-align: center;
+  }
+}
+
+/* Responsive Contents END */
